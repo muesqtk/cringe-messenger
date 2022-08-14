@@ -1,3 +1,3 @@
 # cringe-messenger
 
-tut dolzhno cho-to b'ut' , nu i po etomu mb chut' pozzhe budit xD
+версия на данный момент - ver0.01a
