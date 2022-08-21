@@ -1,12 +1,12 @@
-#ver0.02a
+#cringe_ver0.03a
 
 print("Здравствуйте, у вас уже есть аккаунт или нет? (д/н)")
 
 puss = input("---> ")
-
+# puss это вопрос, который спрашивает пользователя есть ли у него акк
 if puss == ("д"):
     name = input("Введите ваше имя ---> ")
-
+    # что такое name вроде понятно
     input("Введите ваш пароль ---> ")
 
     print("Добро пожаловать, " + name)
@@ -21,13 +21,14 @@ if puss == ("д"):
     print("4) Спам")
     print("5) Настройки")
     print("6) superdupermenuforfreerobux")
+    print("7) Выход")
 
     answ = input("---> ")
-
+    # answ типа выбрать пункт меню
     if answ == ("1"):
         print("Кому хотите отправить?")
         vkusno = input("---> ")
-
+        # vkusno есть вкусно
         print("Введите тему сообщения (если нет темы, нажми Enter)")
         input("---> ")
 
@@ -36,7 +37,7 @@ if puss == ("д"):
 
         print("Вы хотите отправить сообщение " + vkusno + "? (д/н)")
         kruto = input("--->")
-
+        # kruto для отправленя\неотправления сообщения
         if kruto == ("д"):
 
             import time
@@ -67,7 +68,7 @@ if puss == ("д"):
         print("2) Поменять цвет терминала")
 
         accord = input("---> ")
-
+        # мне было лень что-то придумывать, поэтому accord
         if accord == ("1"):
             import time
 
@@ -87,7 +88,7 @@ if puss == ("д"):
     if answ == ("6"):
         print("how much u want ROBUX")
         robux = input("---> ")
-
+        # beluga loves more robux
         import time
 
         for percent in range(101):
@@ -99,7 +100,17 @@ if puss == ("д"):
 
         print("\ndone ^_^. now you have " + robux + " robux in yr balance")
 
+    if answ == ("7"):
+        print("Вы точно хотите выйти, ведь после выхода ВЫ БОЛЬШЕ не войдёте (д/н)")
+        yes = input("---> ")
+        # если вы вышли, вы чмо
+        if yes == ("д"):
+            print(name + ", вы чмо")
+
+        if yes == ("н"):
+            print("маладесс!")
+
     # beluga = hecker
 
 if puss == ("н"):
-    print("ну тут короче пока регистрации нет)))")
+    print("ну тут короче пока регистрации нет)))") 
